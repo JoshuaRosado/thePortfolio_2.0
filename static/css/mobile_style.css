@@ -1,0 +1,46 @@
+*, *::before, * ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-light-color:rgb(251, 250, 249);
+    --bg-dark-color: rgb(2, 2, 29);
+
+}
+.container{
+    height: 200svh;
+    background-color: var(--bg-light-color);
+}
+
+/* ---------------- NAV SECTION */
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10dvh;
+    width: 100dvw;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.255);
+    backdrop-filter: blur(5px);
+}
+
+.links{
+    /* display: none; */
+    height: 100dvh;
+    width: 100dvh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.nav_link{
+    display: flex;
+}
+
+/* ---------------- end of - NAV SECTION */
